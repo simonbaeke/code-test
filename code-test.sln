@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractal", "Fractal\Fractal.csproj", "{D9C87B61-530C-4F05-ADCB-ECBC7A054963}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{1ADDB442-1B91-4C5A-9D31-6D5816BB50A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checksum", "Checksum\Checksum.csproj", "{3D6CC173-1697-432E-888C-59E7BD785103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segmented-Display", "Segmented-Display\Segmented-Display.csproj", "{B702AEE0-025C-4143-B2F5-03A25F13A5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stream-Processing", "Stream-Processing\Stream-Processing.csproj", "{E4A47313-77BA-4786-832E-F95256067AC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9C87B61-530C-4F05-ADCB-ECBC7A054963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C87B61-530C-4F05-ADCB-ECBC7A054963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C87B61-530C-4F05-ADCB-ECBC7A054963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C87B61-530C-4F05-ADCB-ECBC7A054963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6CC173-1697-432E-888C-59E7BD785103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6CC173-1697-432E-888C-59E7BD785103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6CC173-1697-432E-888C-59E7BD785103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6CC173-1697-432E-888C-59E7BD785103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B702AEE0-025C-4143-B2F5-03A25F13A5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B702AEE0-025C-4143-B2F5-03A25F13A5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B702AEE0-025C-4143-B2F5-03A25F13A5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B702AEE0-025C-4143-B2F5-03A25F13A5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A47313-77BA-4786-832E-F95256067AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A47313-77BA-4786-832E-F95256067AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A47313-77BA-4786-832E-F95256067AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A47313-77BA-4786-832E-F95256067AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {228D59F5-3D5A-4B35-AC24-63C6C3D46BAF}
+	EndGlobalSection
+EndGlobal

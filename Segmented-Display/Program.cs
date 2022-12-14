@@ -1,6 +1,7 @@
 ﻿using Segmented_Display;
 using System;
- 
+using System.IO;
+
 string fileName = "../../../segmented display - input.txt";
 string[] lines = File.ReadAllLines(fileName);
 Mapper mapper;
