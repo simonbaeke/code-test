@@ -37,12 +37,12 @@ namespace Fractal
 
         //Maak nieuw raster aan de hand van patronen
         public Raster(string[] deelPatronen)
-        { 
+        {
             int rijIndexDeelPatroon;
             int rijIndexVierkant = 0;
-            int dimDeelPatronen = (int) Math.Sqrt(deelPatronen.Length);
+            int dimDeelPatronen = (int)Math.Sqrt(deelPatronen.Length);
             int dimDeelpatroon = (int)Math.Sqrt(deelPatronen[0].Length);  //2 of 3
-            Dim = dimDeelPatronen * dimDeelpatroon; 
+            Dim = dimDeelPatronen * dimDeelpatroon;
 
             Vierkant = new string[Dim];
 
@@ -54,15 +54,15 @@ namespace Fractal
                 {
                     for (int i = 0; i < dimDeelPatronen; i++)//vormt kolommen gevormd door de deelpatroon
 
-                        //herhalen tot sqrt regels.length
+                    //herhalen tot sqrt regels.length
                     {
                         rijIndexDeelPatroon = i + dimDeelPatronen * x;
 
-                        Vierkant[rijIndexVierkant] += deelPatronen[rijIndexDeelPatroon][(j * dimDeelpatroon).. (j * dimDeelpatroon + dimDeelpatroon)];
+                        Vierkant[rijIndexVierkant] += deelPatronen[rijIndexDeelPatroon][(j * dimDeelpatroon)..(j * dimDeelpatroon + dimDeelpatroon)];
                     }
 
                     //vul volgende rij van het vierkant
-                    rijIndexVierkant++; 
+                    rijIndexVierkant++;
                 }
             }
         }
@@ -156,7 +156,7 @@ namespace Fractal
             {
                 for (int kolom = 0; kolom < Dim; kolom++)
                 {
-                    gespiegeld[rij] += Vierkant[rij][Dim - kolom - 1] ;
+                    gespiegeld[rij] += Vierkant[rij][Dim - kolom - 1];
                 }
             }
 
@@ -181,4 +181,3 @@ namespace Fractal
         }
     }
 }
-

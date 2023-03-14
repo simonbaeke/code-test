@@ -1,11 +1,11 @@
 ﻿using System;
 namespace Fractal
 {
-	public class TestOmvormer : IOmvormer
-	{
-		public TestOmvormer()
-		{
-		}
+    public class TestOmvormer : IOmvormer
+    {
+        public TestOmvormer()
+        {
+        }
 
         public string VormOm(string deelRaster)
         {
@@ -27,4 +27,3 @@ namespace Fractal
         }
     }
 }
-

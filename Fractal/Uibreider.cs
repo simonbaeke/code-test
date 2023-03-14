@@ -20,13 +20,24 @@ namespace Fractal
             //zet alle deelpatronen om volgens de regels
             for (int i = 0; i < deelRasters.Length; i++)
             {
-                resultaat[i] = Omvormer.VormOm(deelRasters[i]).Replace("/","");
+                resultaat[i] = Omvormer.VormOm(deelRasters[i]).Replace("/", "");
             }
 
             Raster nieuwRaster = new Raster(resultaat);
 
             return new Raster(resultaat);
         }
+
+        //verwerkt het raster
+        public Raster BreidtUit(Raster raster, int aantalIteraties)
+        { 
+            for (int i = 0; i < aantalIteraties; i++)
+            {
+                raster = this.BreidtUit(raster);
+                //raster.Draw()
+            }
+
+            return raster;
+        }
     }
 }
-
